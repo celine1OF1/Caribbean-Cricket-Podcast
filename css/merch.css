@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/*Spinner/Loader*/
+/* Fade-out effect */
+/* .fade-out {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s ease-out, visibility 0.8s ease-out;
+} */
+
+/* Ensure content doesn't show before loader fades out */
+/* #content {
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+} */
+
+/*Font Styles*/
+.poppins-font {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.geist-font {
+    font-family: "Geist", serif;
+}
+
+#backToTop {
+    display: block !important; /* Ensure it's not hidden */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/*Navbar*/
+nav{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.nav-link,
+a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+/* Gradient border effect */
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 0.2em;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    -webkit-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Hover state for links */
+.nav-link:hover::after {
+    width: 70%;
+}
+
+/*Hamburger Menu*/
+.hamburger {
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    height: 2em;
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+    fill: none;
+    stroke: #cfb000;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    transition:
+        stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+    stroke-dasharray: 12 63;
+}
+
+/* Active state */
+.hamburger.active .hamburger-icon {
+    transform: rotate(-45deg);
+}
+
+.hamburger.active .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+}
+
+
+
+
+
+/* Animations */
+/* Green to Yellow Gradient Animation */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradientShift 3s ease infinite;
+  }
+
+/* Banner Animation for Mobile and Tablet screens */
+.animate-marquee-mobile:hover,
+.animate-marquee-mobile *:hover {
+    -webkit-animation-play-state: paused !important;
+            animation-play-state: paused !important;
+}
+
+.animate-marquee-mobile:not(:hover),
+.animate-marquee-mobile *:not(:hover) {
+    -webkit-animation-play-state: running !important;
+            animation-play-state: running !important;
+}
+
+@-webkit-keyframes mobile-marquee {
+    0% {
+        -webkit-transform: translateX(70%);
+                transform: translateX(70%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+    }
+}
+
+@keyframes mobile-marquee {
+    0% {
+        -webkit-transform: translateX(70%);
+                transform: translateX(70%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes tablet-marquee {
+    0% {
+        -webkit-transform: translateX(100%);
+                transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+    }
+}
+
+@keyframes tablet-marquee {
+    0% {
+        -webkit-transform: translateX(100%);
+                transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+    }
+}
+.animate-marquee-mobile {
+    -webkit-animation: none;
+            animation: none; /* Default to no animation */
+}
+/* End Animations */
+
+/* Banner adjustment for mobile and tablet screens */
+  @media (max-width: 768px) {
+      .animate-marquee-mobile {
+          -webkit-animation: mobile-marquee 23s linear infinite;
+                  animation: mobile-marquee 23s linear infinite;
+      }
+  }
+  @media (max-width: 1024px) {
+    .animate-marquee-tablet {
+        -webkit-animation: tablet-marquee 23s linear infinite;
+                animation: tablet-marquee 23s linear infinite;
+    }
+}
+
+
+/*Category blocks */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+.hover-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes shine {
+    0% { background-position: 200% center; }
+    100% { background-position: -200% center; }
+}
+
+.hover-shine {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    background-size: 200% 100%;
+    animation: shine 3s infinite;
+}
+
+
+/*Footer */
+footer {
+    background-image: url('https://i.postimg.cc/0NdGyR8q/footer-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styles for desktop screens */
+/* @media screen and (max-width: 1024px) {
+    footer {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 812px) {
+    footer {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+/*  */
+@media screen and (max-width: 780px) {
+    footer {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    footer {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Styles for mobile screens */
+@media (max-width: 640px) {
+    footer {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Styles for tablet screens */
+@media (min-width: 641px) and (min-width: 1024px) {
+    footer {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+
+/* Wheel Animation */
+.wheel-container {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes verticalScroll {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.animate-wheel {
+    animation: verticalScroll 20s linear infinite;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Create continuous loop by duplicating content */
+.animate-wheel > * {
+    flex-shrink: 0;
+}
+
+/* Add pause on hover */
+.wheel-container:hover .animate-wheel {
+    animation-play-state: paused;
+}

@@ -1,0 +1,70 @@
+HOME PAGE:
+
+DONE:
+
+news letter section 
+back to top button
+adjust the gap between the lets talk button and the message box
+shorten the "lets talk" button; align it to the right and put another button "clear" to the left for mobile users
+banner [content above the navbar(displays new information,uodates etc.)]
+fix the cards for mobile view
+add a card peak so users know there is more content. (for tablet and mobile users)
+change "read more" to buttons
+fix dates in latest news
+bring arrows closer in the "latest news" section
+heading font sizes for mobile
+fix the gap for "get notified" for mobile
+make navbar sticky
+change text in the banner to :
+schedule for Monday call in shows and time
+banner animation for mobile screens(ONLY)
+fix the gradient for "notify me"
+change arrow to "link" icon
+synchronize the menu buttons
+add icons to the navbar links
+responsiveness for mobile
+---------------------------------------
+
+FUTURE FEATURES:
+GENERAL:
+	- on page load, the user selects what language they want. saves in local storage
+	- light/dark mode
+	- install fluid
+	- translate to different languages
+	- notification for when a youtube video is posted
+	- diagonal mobile menu 
+		the ability to drag the menu icon
+
+	- when the users scrolls up the navbar shows, else it isn't shown
+		
+
+Merch page:
+ 	- Implement a buying feature?
+	- Placing orders
+	- Based on the user's location(language) the price is adjusted accordingly
+
+--------------------------------------
+MERCH PAGE:
+
+add FAQ section
+	- Questions:
+		Refund policy
+		Shipping fees and time
+		Discount if join patreon
+
+FAQ Quetions:
+
+Shipping fees country and time 
+Discounts for patreon members
+How to support (patreon YouTube super chat PayPal tik tok etc) 
+How to sponsor (idk if this is faq or contact us section) and how to write on the stack website thing
+
+
+A separate contact us button too with their emails and diff social media platforms 
+Where to find podcast episodes - he mention sumn bout reading on stack? And another one to listen to that wasn’t Spotify or yt.. mach Mondays
+
+
+
+
+--------------------------------------
+PATREON PAGE:

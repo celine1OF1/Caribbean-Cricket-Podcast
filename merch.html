@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Caribbean Cricket Podcast: Your top source for in-depth West Indies cricket news, analysis, and lively discussions.">
+    <title>Home - Caribbean Cricket Podcast</title>
+
+    <!-- External Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- External Stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Internal Stylesheets -->
+    <link rel="stylesheet" href="./css/merch.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" sizes="16x16" href="./assets/website-logo.jpeg">
+</head>
+
+<body class="antialiased">
+    <!-- <div id="page-loader" class="fixed inset-0 flex items-center justify-center bg-white z-[9999]">
+        <div class="relative flex items-center justify-center">
+            <div class="w-16 h-16 border-4 border-green-500 border-t-transparent rounded-full animate-spin"></div>
+
+            <div
+                class="absolute w-12 h-12 border-4 border-yellow-500 border-b-transparent rounded-full animate-[spin_1s_linear_infinite_reverse]">
+            </div>
+        </div>
+    </div> -->
+
+    <!--Banner-->
+    <banner class="top-0 z-50">
+        <div class="relative isolate flex items-center gap-x-6 overflow-hidden py-1.5">
+            <!-- Background gradients -->
+            <!-- Green Shape (Left) -->
+            <div class="absolute left-[0%] sm:left[0%] md:left-[0%] top-1/3 -z-10 -translate-y-1/2 transform-gpu blur-2xl animate-fade-in"
+                aria-hidden="true">
+                <div class="aspect-[577/310] w-[50vw] sm:w-[50vw] md:w-[40vw]
+                    bg-gradient-to-b from-green-600 via-green-400 to-green-300" style="clip-path: polygon(
+                        74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%,
+                        87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%,
+                        46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%,
+                        11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%
+                );">
+                </div>
+            </div>
+
+            <!-- Yellow Shape (Right) -->
+            <div class="absolute right-[0%] sm:right[0%] md:right-[0%] top-2/3 -z-10 -translate-y-1/2 transform-gpu blur-2xl animate-fade-in"
+                aria-hidden="true">
+                <div class="aspect-[577/310] w-[50vw] sm:w-[50vw] md:w-[40vw]
+                    bg-gradient-to-b from-yellow-600 via-yellow-400 to-yellow-300" style="clip-path: polygon(
+                        74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%,
+                        87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%,
+                        46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%,
+                        11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%
+                );">
+                </div>
+            </div>
+
+
+            <div class="overflow-hidden w-full flex justify-center items-center gap-x-4 gap-y-2 poppins-font">
+                <p
+                    class="animate-marquee-mobile animate-marquee-tablet text-sm/6 md:text-sm text-gray-900 whitespace-nowrap flex items-center">
+                    <i class="fa-brands fa-youtube text-red-500 text-xl"></i>&nbsp;&nbsp;
+                    <strong class="font-bold">Monday Night Mash Up</strong>
+                    <svg viewBox="0 0 2 2" class="mx-2 inline size-1 fill-current" aria-hidden="true">
+                        <circle cx="1" cy="1" r="1" />
+                    </svg>
+                    <span class="font-medium">Join us every Monday, <b>live @ 5:30pm (ECT)</b> to discuss all things
+                        West Indies Cricket</span>
+                    <a href="https://www.youtube.com/@CaribbeanCricketPodcast/streams" target="_blank"
+                        rel="noopener noreferrer"
+                        class="ml-4 flex-none rounded-[0.25rem] bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 flex items-center gap-2 whitespace-nowrap">
+                        <span>Participate&nbsp;<i class="fa-solid fa-exclamation"></i></span>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </banner>
+
+    <!-- Navbar -->
+    <div
+        class="drop-shadow-none max-w-8xl mx-2 xl:mx-10 h-[65px] flex items-center justify-between sticky top-5 z-50 lg:bg-[rgba(255,255,255,0.4)] backdrop-blur-lg rounded-[0.40rem]">
+        <!-- Logo (Aligned to Left) -->
+        <div class="flex items-center justify-center mx-2 md:mx-2 lg:mx-10">
+            <a href="#" class="flex items-center">
+                <img src="./assets/footer-logo.png" alt="Caribbean Cricket Podcast Logo"
+                    class="h-11 w-11 md:h-14 md:w-14 lg:h-16 lg:w-16">
+                <span
+                    class="text-2xl font-black bg-gradient-to-r from-green-500 via-yellow-500 to-green-500 bg-clip-text text-transparent animate-gradient">CCP</span>
+            </a>
+        </div>
+
+        <!-- "Merch" tab indicator Button -->
+        <li class="ml-auto mr-16 list-none lg:hidden">
+            <a id="merch-link"
+                class="relative inline-flex items-center gap-1 rounded-[0.25rem] border-[1.5px] border-green-500 bg-green-100 px-3 py-1 font-medium poppins-font text-[0.895rem] text-green-500 transition-all duration-500 ease-in-out after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-green-500 after:transition-all after:duration-500"
+                href="#">
+                <i class="fa-solid fa-shirt transition duration-300 text-green-500"></i>
+                <span id="merch-text">Merch</span>
+            </a>
+        </li>
+
+        <!-- Hamburger Menu Button -->
+        <button id="menu-btn" class="hamburger lg:hidden flex fixed -right-6 cursor-pointer z-50 mx-10"
+            aria-label="Toggle menu">
+            <svg viewBox="0 0 32 32" class="hamburger-icon w-8 h-8">
+                <path class="line line-top-bottom !stroke-[#006c0e]"
+                    d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                </path>
+                <path class="line" d="M7 16 27 16"></path>
+            </svg>
+        </button>
+
+
+        <!--Hidden Mobile menu-->
+        <!-- Dropdown Menu -->
+        <div id="mobile-menu"
+            class="absolute top-[65px] backdrop-blur-lg bg-white rounded-b-none drop-shadow-2xl overflow-hidden lg:hidden flex max-h-0 translate-y-[-10px] w-[100%] m/ax-w-[300px] transition-[max-height_0.6s_ease-in-out,opacity_0.3s_linear,transform_0.3s_ease-in-out]">
+            <ul class="p/b-5 space-/y-2 text-gray-900 font-medium poppins-font border-b-4 border-green-500 w-[100%]">
+                <li class="group w-full hover:bg-green-100 hover:text-green-600">
+                    <a href="home.html"
+                        class="ml-1 flex items-center gap-x-2.5 py-3 px-4 transition duration-300 text-gray-600">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="text-base">Home</span>
+                    </a>
+                </li>
+                <li class="group w-full hover:bg-green-100 hover:text-green-600">
+                    <a href="news.html"
+                        class="ml-1 flex items-center gap-x-2.5 py-3 px-4 transition duration-300 text-gray-600">
+                        <i class="fa-solid fa-envelopes-bulk"></i>
+                        <span class="text-base">News</span>
+                    </a>
+                </li>
+                <li class="group w-full hover:bg-green-100 hover:text-green-600">
+                    <a href="merch.html"
+                        class="flex items-center border-l-4 border-green-500 gap-x-2.5 py-3 px-4 rou/nded-r-full transition duration-300 bg-green-100 text-green-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-5 h-5"
+                            fill="currentColor">
+                            <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0l12.6 0c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7 480 448c0 35.3-28.7 64-64 64l-192 0c-35.3 0-64-28.7-64-64l0-250.3-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0l12.6 0z" />
+                        </svg>
+                        <span class="text-base">Merch</span>
+                    </a>
+                </li>
+                <li class="group w-full hover:bg-green-100 hover:text-green-600">
+                    <a href="articles.html"
+                        class="ml-1 flex items-center gap-x-2.5 py-3 px-4 transition duration-300 text-gray-600">
+                        <i class="fa-solid fa-newspaper"></i>
+                        <span class="text-base">Articles</span>
+                    </a>
+                </li>
+                <li class="group w-full hover:bg-green-100 hover:text-green-600">
+                    <a href="patreon.html"
+                        class="ml-1 flex items-center gap-x-2.5 py-3 px-4 transition duration-300 text-gray-600">
+                        <i class="fa-brands fa-patreon"></i>
+                        <span class="text-base">Patreon</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Desktop/Laptop Navigation -->
+        <nav>
+            <ul
+                class="hidden lg:flex lg:gap-8 text-sm md:text-[0.97rem] z-50 font-medium subpixel-antialiased tracking-normal poppins-font lg:mx-10">
+                <li class="group mr-3 list-none">
+                    <a class="relative inline-block rounded-tl rounded-tr px-3 py-1 text-black transition-all duration-500 ease-in-out after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-500 group-hover:after:w-full hover:border-green-100 hover:bg-green-100 hover:text-green-500"
+                        href="home.html">
+                        <i
+                            class="fa-solid fa-house mr-1 flex justify-center xl:inline-block xl:justify-normal transition duration-300 group-hover:text-green-500"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="group mr-3">
+                    <a class="relative inline-block rounded-tl rounded-tr px-3 py-1 text-black transition-all duration-500 ease-in-out after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-500 group-hover:after:w-full hover:border-green-100 hover:bg-green-100 hover:text-green-500"
+                        href="news.html">
+                        <i
+                            class="fa-solid fa-envelopes-bulk mr-1 flex justify-center xl:inline-block xl:justify-normal transition duration-300 group-hover:text-green-500"></i>
+                        News
+                    </a>
+                </li>
+                <li class="group mr-3">
+                    <a class="relative inline-block rounded-[0.25rem] border-[1px] border-green-500 bg-green-100 px-3 py-1 font-medium text-green-500 transition-all duration-0 ease-in-out after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-green-500 after:transition-all after:duration-500"
+                        href="merch.html">
+                        <i
+                            class="fa-solid fa-shirt flex justify-center xl:inline-block xl:justify-normal mr-1 text-green-500"></i>
+                        Merch
+                    </a>
+                </li>
+                <li class="group mr-3">
+                    <a class="relative inline-block rounded-tl rounded-tr px-3 py-1 transition-all duration-500 ease-in-out after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-500 group-hover:after:w-full hover:border-green-100 hover:bg-green-100 hover:text-green-500"
+                        href="articles.html">
+                        <i
+                            class="fa-solid fa-newspaper mr-1 flex justify-center xl:inline-block xl:justify-normal transition duration-300 group-hover:text-green-500"></i>
+                        Articles
+                    </a>
+                </li>
+                <li class="group mr-3">
+                    <a class="relative inline-block rounded-tl rounded-tr px-3 py-1 transition-all duration-500 ease-in-out after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-500 group-hover:after:w-full hover:border-green-100 hover:bg-green-100 hover:text-green-500"
+                        href="patreon.html">
+                        <i
+                            class="fa-brands fa-patreon mr-1 flex justify-center xl:inline-block xl:justify-normal transition duration-300 group-hover:text-green-500"></i>
+                        Patreon
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <!-- Store Front Hero Section -->
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 xl:px-20 lg:pt-20">
+        <!-- Grid -->
+        <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 py-10 lg:py-0">
+            <div>
+                <h1
+                    class="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight poppins-font">
+                    Start your journey with <span class="text-green-500">Preline</span></h1>
+                <p class="mt-3 text-lg text-gray-800 geist-font">Hand-picked professionals and expertly
+                    crafted components, designed for any kind of entrepreneur.</p>
+
+                <!-- Buttons -->
+                <div class="mt-7 grid gap-3 w-full sm:inline-flex">
+                    <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-[0.950rem] lg:text-[1.120rem] font-medium rounded border border-transparent bg-green-500 text-white hover:bg-green-600 focus:outline-none focus:bg-green-700 disabled:opacity-50 disabled:pointer-events-none geist-font tracking-wider"
+                        href="#">
+                        Get started
+                        <svg class="shrink-0 size-4 lg:size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6" /></svg>
+                    </a>
+                    <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-[0.950rem] lg:text-[1.120rem] font-medium rounded border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800 geist-font tracking-wider"
+                        href="#">
+                        Contact sales team
+                    </a>
+                </div>
+                <!-- End Buttons -->
+
+                <!-- Review -->
+                <div class="mt-6 lg:mt-10 grid grid-cols-2 lg:gap-x-3 gap-x-16">
+                    <!-- Review -->
+                    <div class="py-5">
+                        <div class="flex gap-x-1">
+                            <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </div>
+
+                        <p class="mt-3 lg:text-base text-xs poppins-font">
+                            <span class="font-semibold">4.6 <span class="text-xl font-bold">/5</span> - from 12k
+                                reviews</span>
+                        </p>
+
+                        <div class="mt-5">
+                            <!-- Star -->
+                            <svg class="h-auto w-16" width="80" height="27" viewBox="0 0 80 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20.558 9.74046H11.576V12.3752H17.9632C17.6438 16.0878 14.5301 17.7245 11.6159 17.7245C7.86341 17.7245 4.58995 14.7704 4.58995 10.6586C4.58995 6.62669 7.70373 3.51291 11.6159 3.51291C14.6498 3.51291 16.4063 5.42908 16.4063 5.42908L18.2426 3.51291C18.2426 3.51291 15.8474 0.878184 11.4961 0.878184C5.94724 0.838264 1.67578 5.50892 1.67578 10.5788C1.67578 15.5289 5.70772 20.3592 11.6558 20.3592C16.8854 20.3592 20.7177 16.8063 20.7177 11.4969C20.7177 10.3792 20.558 9.74046 20.558 9.74046Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M27.8621 7.78442C24.1894 7.78442 21.5547 10.6587 21.5547 14.012C21.5547 17.4451 24.1096 20.3593 27.9419 20.3593C31.415 20.3593 34.2094 17.7645 34.2094 14.0918C34.1695 9.94011 30.896 7.78442 27.8621 7.78442ZM27.902 10.2994C29.6984 10.2994 31.415 11.7764 31.415 14.0918C31.415 16.4072 29.7383 17.8842 27.902 17.8842C25.906 17.8842 24.3491 16.2874 24.3491 14.0519C24.3092 11.8962 25.8661 10.2994 27.902 10.2994Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M41.5964 7.78442C37.9238 7.78442 35.2891 10.6587 35.2891 14.012C35.2891 17.4451 37.844 20.3593 41.6763 20.3593C45.1493 20.3593 47.9438 17.7645 47.9438 14.0918C47.9038 9.94011 44.6304 7.78442 41.5964 7.78442ZM41.6364 10.2994C43.4328 10.2994 45.1493 11.7764 45.1493 14.0918C45.1493 16.4072 43.4727 17.8842 41.6364 17.8842C39.6404 17.8842 38.0835 16.2874 38.0835 14.0519C38.0436 11.8962 39.6004 10.2994 41.6364 10.2994Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M55.0475 7.82434C51.6543 7.82434 49.0195 10.7784 49.0195 14.0918C49.0195 17.8443 52.0934 20.3992 54.9676 20.3992C56.764 20.3992 57.6822 19.7205 58.4407 18.8822V20.1198C58.4407 22.2754 57.1233 23.5928 55.1273 23.5928C53.2111 23.5928 52.2531 22.1557 51.8938 21.3573L49.4587 22.3553C50.297 24.1517 52.0135 26.0279 55.0874 26.0279C58.4407 26.0279 60.9956 23.9122 60.9956 19.481V8.18362H58.3608V9.26147C57.6423 8.38322 56.5245 7.82434 55.0475 7.82434ZM55.287 10.2994C56.9237 10.2994 58.6403 11.7365 58.6403 14.1317C58.6403 16.6068 56.9636 17.9241 55.2471 17.9241C53.4507 17.9241 51.774 16.4471 51.774 14.1716C51.8139 11.6966 53.5305 10.2994 55.287 10.2994Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M72.8136 7.78442C69.62 7.78442 66.9453 10.2994 66.9453 14.0519C66.9453 18.004 69.9393 20.3593 73.093 20.3593C75.7278 20.3593 77.4044 18.8822 78.3625 17.6048L76.1669 16.1277C75.608 17.006 74.6499 17.8443 73.093 17.8443C71.3365 17.8443 70.5381 16.8862 70.0192 15.9281L78.4423 12.4152L78.0032 11.3772C77.1649 9.46107 75.2886 7.78442 72.8136 7.78442ZM72.8934 10.2196C74.0511 10.2196 74.8495 10.8184 75.2487 11.5768L69.6599 13.9321C69.3405 12.0958 71.097 10.2196 72.8934 10.2196Z"
+                                    fill="currentColor" />
+                                <path d="M62.9531 19.9999H65.7076V1.47693H62.9531V19.9999Z" fill="currentColor" />
+                            </svg>
+                            <!-- End Star -->
+                        </div>
+                    </div>
+                    <!-- End Review -->
+
+                    <!-- Review -->
+                    <div class="py-5">
+                        <div class="flex gap-x-1">
+                            <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <svg class="size-4 text-yellow-500" width="51" height="51" viewBox="0 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M49.6867 20.0305C50.2889 19.3946 49.9878 18.1228 49.0846 18.1228L33.7306 15.8972C33.4296 15.8972 33.1285 15.8972 32.8275 15.2613L25.9032 0.317944C25.6021 0 25.3011 0 25 0V42.6046C25 42.6046 25.3011 42.6046 25.6021 42.6046L39.7518 49.9173C40.3539 50.2352 41.5581 49.5994 41.2571 48.6455L38.5476 32.4303C38.5476 32.1124 38.5476 31.7944 38.8486 31.4765L49.6867 20.0305Z"
+                                    fill="transparent" />
+                                <path
+                                    d="M0.313299 20.0305C-0.288914 19.3946 0.0122427 18.1228 0.915411 18.1228L16.2694 15.8972C16.5704 15.8972 16.8715 15.8972 17.1725 15.2613L24.0968 0.317944C24.3979 0 24.6989 0 25 0V42.6046C25 42.6046 24.6989 42.6046 24.3979 42.6046L10.2482 49.9173C9.64609 50.2352 8.44187 49.5994 8.74292 48.6455L11.4524 32.4303C11.4524 32.1124 11.4524 31.7944 11.1514 31.4765L0.313299 20.0305Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </div>
+
+                        <p class="mt-3 lg:text-base text-xs poppins-font">
+                            <span class="font-semibold">4.5 <span class="text-xl font-bold">/5</span> - from 12k
+                                reviews</span>
+                        </p>
+
+                        <div class="mt-5">
+                            <!-- Star -->
+                            <svg class="h-auto w-16" width="110" height="28" viewBox="0 0 110 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M66.6601 8.35107C64.8995 8.35107 63.5167 8.72875 62.1331 9.48265C62.1331 5.4582 62.1331 1.81143 62.2594 0.554199L53.8321 2.06273V2.81736L54.7124 2.94301C55.8433 3.19431 56.2224 3.82257 56.4715 5.33255C56.725 8.35107 56.5979 24.4496 56.4715 27.0912C58.7354 27.5945 61.1257 27.9722 63.5159 27.9722C70.1819 27.9722 74.2064 23.8213 74.2064 17.281C74.2064 12.1249 70.9366 8.35107 66.6601 8.35107ZM63.7672 26.5878C63.2639 26.5878 62.6342 26.5878 62.258 26.4629C62.1316 24.7023 62.0067 17.281 62.1316 10.7413C62.8862 10.4893 63.3888 10.3637 64.0185 10.3637C66.7872 10.3637 68.2965 13.6335 68.2965 17.6572C68.2957 22.6898 66.4088 26.5878 63.7672 26.5878ZM22.1363 1.0568H0V2.18838L1.25796 2.31403C2.89214 2.56533 3.52184 3.57127 3.77242 5.9608C4.15082 10.4886 4.02445 18.6646 3.77242 22.5619C3.52112 24.9522 2.89287 26.0845 1.25796 26.2087L0 26.4615V27.4674H14.2123V26.4615L12.703 26.2087C11.0681 26.0838 10.4392 24.9522 10.1879 22.5619C10.0615 20.9263 9.93583 18.2847 9.93583 15.0156L12.9543 15.1413C14.8413 15.1413 15.7208 16.6505 16.0985 18.7881H17.2308V9.86106H16.0985C15.7201 11.9993 14.8413 13.5078 12.9543 13.5078L9.93655 13.6342C9.93655 9.35773 10.0622 5.33328 10.1886 2.94374H14.59C17.9869 2.94374 19.7475 5.08125 21.0047 8.85513L22.2626 8.47745L22.1363 1.0568Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M29.3053 8.09998C35.5944 8.09998 38.7385 12.3764 38.7385 18.0358C38.7385 23.4439 35.2167 27.9731 28.9276 27.9731C22.6393 27.9731 19.4951 23.6959 19.4951 18.0358C19.4951 12.6277 23.0162 8.09998 29.3053 8.09998ZM28.9276 9.35793C26.1604 9.35793 25.4058 13.1311 25.4058 18.0358C25.4058 22.8149 26.6637 26.7137 29.1796 26.7137C32.0703 26.7137 32.8264 22.9405 32.8264 18.0358C32.8264 13.2567 31.5699 9.35793 28.9276 9.35793ZM75.8403 18.1622C75.8403 13.0054 79.1101 8.09998 85.5248 8.09998C90.8057 8.09998 93.3224 11.9995 93.3224 17.1555H81.6253C81.4989 21.8089 83.7628 25.2051 88.2913 25.2051C90.3038 25.2051 91.3098 24.7033 92.5685 23.8223L93.0703 24.4505C91.8124 26.2111 89.0459 27.9731 85.5248 27.9731C79.8647 27.9724 75.8403 23.9479 75.8403 18.1622ZM81.6253 15.7726L87.5366 15.6463C87.5366 13.1311 87.159 9.35793 85.0214 9.35793C82.8839 9.35793 81.7502 12.8791 81.6253 15.7726ZM108.291 9.10663C106.782 8.47693 104.77 8.09998 102.506 8.09998C97.8538 8.09998 94.9594 10.8665 94.9594 14.137C94.9594 17.4075 97.0955 18.7904 100.118 19.7971C103.261 20.9279 104.142 21.8089 104.142 23.3182C104.142 24.8275 103.01 26.2103 100.997 26.2103C98.6084 26.2103 96.8464 24.8275 95.4635 21.0536L94.5825 21.3063L94.7089 26.84C96.2181 27.4683 98.9846 27.9724 101.375 27.9724C106.28 27.9724 109.425 25.4557 109.425 21.5576C109.425 18.9161 108.041 17.4075 104.771 16.1489C101.249 14.766 99.992 13.8857 99.992 12.2501C99.992 10.6152 101.126 9.48286 102.635 9.48286C104.897 9.48286 106.407 10.8665 107.54 14.2627L108.42 14.0114L108.291 9.10663ZM55.0883 8.6033C52.9508 7.3468 49.1769 7.97433 47.1651 12.5028L47.29 8.1007L38.8642 9.73561V10.4902L39.7444 10.6159C40.8775 10.7423 41.3794 11.3705 41.5057 13.0062C41.757 16.0247 41.6314 21.3078 41.5057 23.9486C41.3794 25.4564 40.8775 26.2111 39.7444 26.3374L38.8642 26.4638V27.4697H50.5606V26.4638L49.0513 26.3374C47.7941 26.2111 47.4164 25.4564 47.29 23.9486C47.0387 21.5584 47.0387 16.7793 47.1651 13.7608C47.7933 12.8798 50.5606 12.1259 53.0757 13.7608L55.0883 8.6033Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <!-- End Star -->
+                        </div>
+                    </div>
+                    <!-- End Review -->
+                </div>
+                <!-- End Review -->
+            </div>
+            <!-- End Col -->
+
+            <div class="relative xl:ms-4 mx-4 wheel-container overf/low-hidden hidden md:flex">
+                <div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0">
+                    <div
+                        class="absolute transform lg:-top-72 sm:-top-64 2xl:translate-y-64 translate-y-10 sm:translate-y-64">
+                        <div class="animate-wheel">
+                            <div
+                                class="flex items-center 2xl:space-x-10 xl:space-x-3 sm:space-x-10 space-x-16 anima/te-wheel">
+                                <div class="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                                    <div
+                                        class="h-64 w-32 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                    <div
+                                        class="h-64 w-32 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                </div>
+                                <div class="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                                    <div
+                                        class="h-64 w-32 sm:h-52 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                    <div
+                                        class="h-64 w-32 sm:h-52 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                    <div class="h-64 w/-20 overflow-hidden rounded-lg">
+                                    </div>
+                                </div>
+                                <div
+                                    class="g/rid hidden shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8 sm:hidden 2xl:grid lg:grid xl:grid">
+                                    <div
+                                        class="h-64 sm:h-52 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                    <div
+                                        class="h-64 sm:h-52 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animate-wheel">
+                            <div
+                                class="flex items-center 2xl:space-x-10 xl:space-x-3 sm:space-x-10 space-x-16 anima/te-wheel">
+                                <div class="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                                    <div
+                                        class="h-64 w-32 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                    <div
+                                        class="h-64 w-32 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                </div>
+                                <div class="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                                    <div
+                                        class="h-64 w-32 sm:h-52 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                    <div
+                                        class="h-64 w-32 sm:h-52 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                    <div class="h-64 w/-20 overflow-hidden rounded-lg">
+                                    </div>
+                                </div>
+                                <div
+                                    class="g/rid hidden shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8 sm:hidden 2xl:grid lg:grid xl:grid">
+                                    <div
+                                        class="h-64 sm:h-52 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                    <div
+                                        class="h-64 sm:h-52 sm:w-32 xl:w-40 xl:h-52 2xl:w-full 2xl:h-64 overflow-hidden rounded-lg">
+                                        <img src="https://tailwindui.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                                            alt="" class="w-full h-full object-cover">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Section -->
+    <!-- Partners Section -->
+    <section class="pt-[20px] pb-12 md:py-10 lg:pt-32 mx-2 sm:mx-10">
+        <div class="bg-[#0d1117] py-12 lg:py-24 rounded-xl">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <h2 class="text-center text-2xl md:text-4xl font-extrabold pb-4 text-white poppins-font">
+                    Trusted by the world's
+                    <span class="text-transparent bg-clip-text"
+                        style="background-image: linear-gradient(88.6deg, rgb(6, 105, 21) 6.6%, rgb(255, 209, 4) 100.4%);">
+                        most innovative teams
+                    </span>
+                </h2>
+
+                <div
+                    class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                    <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="https://tailwindui.com/plus-assets/img/logos/158x48/transistor-logo-white.svg"
+                        alt="Transistor" width="158" height="48">
+                    <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="https://tailwindui.com/plus-assets/img/logos/158x48/reform-logo-white.svg" alt="Reform"
+                        width="158" height="48">
+                    <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="https://tailwindui.com/plus-assets/img/logos/158x48/tuple-logo-white.svg" alt="Tuple"
+                        width="158" height="48">
+                    <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+                        src="https://tailwindui.com/plus-assets/img/logos/158x48/savvycal-logo-white.svg" alt="SavvyCal"
+                        width="158" height="48">
+                    <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+                        src="https://tailwindui.com/plus-assets/img/logos/158x48/statamic-logo-white.svg" alt="Statamic"
+                        width="158" height="48">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Summer Sale Banner -->
+    <div class="max-w-8xl mx-2 sm:px-6 lg:px-8 mb-12">
+        <div class="bg-gray-200 rounded-xl overflow-hidden lg:py-4">
+            <div class="flex flex-col md:flex-row items-center justify-between p-6 md:p-10">
+                <!-- Text Content -->
+                <div class="w-full md:w-1/2 text-center md:text-left mb-6 md:mb-0">
+                    <span
+                        class="inline-block px-4 py-1 rounded-full bg-green-100 text-green-600 text-[1.1rem] font-bold mb-4 poppins-font"><i
+                            class="fa-solid fa-gift mr-1 bg-gradient-to-r from-green-500 via-yellow-500 to-green-500 bg-clip-text text-transparent animate-gradient"></i>
+                        Save up to 30%
+                    </span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 poppins-font">
+                        Summer Sale
+                    </h2>
+                    <p class="text-gray-600 mb-2 poppins-font">
+                        Want to save some cash and still look like a fashion diva?
+                    </p>
+                    <p class="text-gray-600 poppins-font">
+                        Checkout our summer sale now!!!
+                    </p>
+                    <!-- Call to Action Button -->
+                    <button
+                        class="mt-6 px-6 py-3 bg-green-500 text-white rounded font-semibold hover:bg-green-600 transition duration-300 uppercase poppins-font tracking-widest">
+                        Shop Now
+                    </button>
+                </div>
+
+                <!-- Image -->
+                <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+                    <div class="relative w-48 md:w-56 h-48 md:h-56">
+                        <img src="./assets/merch-carousel/beanie/3.jpeg" alt="Summer Sale"
+                            class="w-full h-full object-cover  rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--SHOP BY CATEGORY-->
+    <section class="py-8 antialiased md:py-16">
+        <!-- Shop by Category Header -->
+        <div class="text-center">
+            <h1
+                class="font-manrope text-2xl md:text-4xl text-center font-extrabold text-gray-900 mb-6 poppins-font inline-block border-l-4 border-green-500 bg-green-50 px-3 py-1">
+                Shop <span class="text-transparent bg-clip-text"
+                    style="background-image: linear-gradient(88.6deg, rgb(6, 105, 21) 6.6%, rgb(255, 209, 4) 100.4%);">by
+                    Category</span>
+                <div class="flex mt-2 justify-center">
+                    <div class="xl:w-32 w-20 h-1 rounded-full bg-indigo-600 inline-flex"></div>
+                </div>
+            </h1>
+        </div>
+
+        <!-- Welcome Message -->
+        <div
+            class="relative flex items-center justify-center bg-indigo-100 px-3 py-3 rounded-full w-fit max-w-md mx-auto mt-6">
+            <!-- Icon -->
+            <i class="fa-solid fa-circle-exclamation text-green-500 text-2xl mr-1"></i>
+            <!-- Text -->
+            <span class="text-indigo-500 font-semibold geist-font tracking-wide text-lg">
+                We ship worldwide
+            </span>
+        </div>
+    </section>
+
+
+    <!-- Categories Section -->
+    <section class="py-12 bg-gradient-to-b from-white to-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Updated grid classes for responsive behavior -->
+            <div class="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-6 lg:gap-8">
+                <!-- Card 1 - Hats -->
+                <a href="#hats"
+                    class="group relative overflow-hidden rounded-xl transition-transform duration-300 hover:-translate-y-1">
+                    <div class="relative h-full">
+                        <!-- Adjusted padding for mobile -->
+                        <div
+                            class="bg-gradient-to-br from-slate-900 to-slate-800 p-2 sm:p-6 lg:p-8 h-full transform transition-all duration-300 group-hover:scale-[1.02]">
+                            <div class="flex flex-col items-center justify-center space-y-2 sm:space-y-4">
+                                <!-- Adjusted icon sizes for mobile -->
+                                <div class="relative w-8 h-8 sm:w-20 sm:h-20 lg:w-24 lg:h-24">
+                                    <div
+                                        class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-yellow-500/20 rounded-full blur-xl group-hover:opacity-75 transition-opacity duration-300">
+                                    </div>
+                                    <img src="./assets/cap.png" alt="Hat"
+                                        class="relative w-full h-full object-contain transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
+                                </div>
+                                <!-- Adjusted text size for mobile -->
+                                <span
+                                    class="text-white font-bold tracking-wider text-xs sm:text-lg lg:text-xl relative">
+                                    HATS
+                                    <span
+                                        class="absolute -bottom-1 left-0 w-full h-0.5 bg-green-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 1 - Hats -->
+                <a href="#hats"
+                    class="group relative overflow-hidden rounded-xl transition-transform duration-300 hover:-translate-y-1">
+                    <div class="relative h-full">
+                        <!-- Adjusted padding for mobile -->
+                        <div
+                            class="bg-gradient-to-br from-slate-900 to-slate-800 p-2 sm:p-6 lg:p-8 h-full transform transition-all duration-300 group-hover:scale-[1.02]">
+                            <div class="flex flex-col items-center justify-center space-y-2 sm:space-y-4">
+                                <!-- Adjusted icon sizes for mobile -->
+                                <div class="relative w-8 h-8 sm:w-20 sm:h-20 lg:w-24 lg:h-24">
+                                    <div
+                                        class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-yellow-500/20 rounded-full blur-xl group-hover:opacity-75 transition-opacity duration-300">
+                                    </div>
+                                    <img src="./assets/cap.png" alt="Hat"
+                                        class="relative w-full h-full object-contain transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
+                                </div>
+                                <!-- Adjusted text size for mobile -->
+                                <span
+                                    class="text-white font-bold tracking-wider text-xs sm:text-lg lg:text-xl relative">
+                                    HATS
+                                    <span
+                                        class="absolute -bottom-1 left-0 w-full h-0.5 bg-green-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 1 - Hats -->
+                <a href="#hats"
+                    class="group relative overflow-hidden rounded-xl transition-transform duration-300 hover:-translate-y-1">
+                    <div class="relative h-full">
+                        <!-- Adjusted padding for mobile -->
+                        <div
+                            class="bg-gradient-to-br from-slate-900 to-slate-800 p-2 sm:p-6 lg:p-8 h-full transform transition-all duration-300 group-hover:scale-[1.02]">
+                            <div class="flex flex-col items-center justify-center space-y-2 sm:space-y-4">
+                                <!-- Adjusted icon sizes for mobile -->
+                                <div class="relative w-8 h-8 sm:w-20 sm:h-20 lg:w-24 lg:h-24">
+                                    <div
+                                        class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-yellow-500/20 rounded-full blur-xl group-hover:opacity-75 transition-opacity duration-300">
+                                    </div>
+                                    <img src="./assets/cap.png" alt="Hat"
+                                        class="relative w-full h-full object-contain transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
+                                </div>
+                                <!-- Adjusted text size for mobile -->
+                                <span
+                                    class="text-white font-bold tracking-wider text-xs sm:text-lg lg:text-xl relative">
+                                    HATS
+                                    <span
+                                        class="absolute -bottom-1 left-0 w-full h-0.5 bg-green-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 1 - Hats -->
+                <a href="#hats"
+                    class="group relative overflow-hidden rounded-xl transition-transform duration-300 hover:-translate-y-1">
+                    <div class="relative h-full">
+                        <!-- Adjusted padding for mobile -->
+                        <div
+                            class="bg-gradient-to-br from-slate-900 to-slate-800 p-2 sm:p-6 lg:p-8 h-full transform transition-all duration-300 group-hover:scale-[1.02]">
+                            <div class="flex flex-col items-center justify-center space-y-2 sm:space-y-4">
+                                <!-- Adjusted icon sizes for mobile -->
+                                <div class="relative w-8 h-8 sm:w-20 sm:h-20 lg:w-24 lg:h-24">
+                                    <div
+                                        class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-yellow-500/20 rounded-full blur-xl group-hover:opacity-75 transition-opacity duration-300">
+                                    </div>
+                                    <img src="./assets/cap.png" alt="Hat"
+                                        class="relative w-full h-full object-contain transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
+                                </div>
+                                <!-- Adjusted text size for mobile -->
+                                <span
+                                    class="text-white font-bold tracking-wider text-xs sm:text-lg lg:text-xl relative">
+                                    HATS
+                                    <span
+                                        class="absolute -bottom-1 left-0 w-full h-0.5 bg-green-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- FAQ -->
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:pb-60 mx-auto">
+        <!-- Title -->
+        <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+            <h1
+                class="font-manrope text-2xl md:text-4xl text-center font-extrabold text-gray-900 mb-6 poppins-font inline-block border-l-4 border-green-500 bg-green-50 px-3 py-1">
+                Your <span class="text-transparent bg-clip-text"
+                    style="background-image: linear-gradient(88.6deg, rgb(6, 105, 21) 6.6%, rgb(255, 209, 4) 100.4%);">Questions,
+                    Answered</span>
+                <div class="flex mt-2 justify-center">
+                    <div class="xl:w-32 w-20 h-1 rounded-full bg-indigo-600 inline-flex"></div>
+                </div>
+            </h1>
+            <p class="mt-1 text-gray-700 poppins-font font-medium">Answers to the most frequently asked
+                questions.
+            </p>
+        </div>
+        <!-- End Title -->
+
+        <div class="max-w-8xl mx-auto bg-white p-8 rounded-lg shadow-md flex">
+            <!-- Sidebar -->
+            <div class="w-1/3 p-4">
+                <div class="mt-0 space-y-4">
+                    <div class="bg-indigo-600 text-white p-4 rounded-lg">
+                        <h3 class="flex items-center geist-font font-medium text-2xl">
+                            <svg class="w-6 h-6 text-white mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd"
+                                    d="M4 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h1v2a1 1 0 0 0 1.707.707L9.414 13H15a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4Z"
+                                    clip-rule="evenodd" />
+                                <path fill-rule="evenodd"
+                                    d="M8.023 17.215c.033-.03.066-.062.098-.094L10.243 15H15a3 3 0 0 0 3-3V8h2a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-1v2a1 1 0 0 1-1.707.707L14.586 18H9a1 1 0 0 1-.977-.785Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            General
+                        </h3>
+                        <p class="text-[0.980rem] mt-1 geist-font font-normal tracking-wide">Welcome to the General
+                            section, where you can find essential
+                            information
+                            and resources to help you navigate our services.</p>
+                    </div>
+                    <!-- Support Card -->
+                    <div class="group transition-all duration-1000 ease-in-out">
+                        <div
+                            class="text-gray-800 p-4 rounded-lg cursor-pointer transition-all duration-300 group-hover:bg-indigo-600 bg-green-100">
+                            <!-- Header -->
+                            <h3 class="flex items-center geist-font font-medium text-2xl group-hover:text-white">
+                                <svg class="w-6 h-6 mr-2 transition-colors duration-300 text-indigo-600 group-hover:text-white"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M96 352L96 96c0-35.3 28.7-64 64-64l256 0c35.3 0 64 28.7 64 64l0 197.5c0 17-6.7 33.3-18.7 45.3l-58.5 58.5c-12 12-28.3 18.7-45.3 18.7L160 416c-35.3 0-64-28.7-64-64zM272 128c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0zm24 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-160 0C60.9 512 0 451.1 0 376L0 152c0-13.3 10.7-24 24-24s24 10.7 24 24l0 224c0 48.6 39.4 88 88 88l160 0z" />
+                                </svg>
+                                Support
+                            </h3>
+
+                            <!-- Description -->
+                            <p
+                                class="text-[0.980rem] mt-1 geist-font font-medium transition-colors duration-300 group-hover:text-white">
+                                Our dedicated support team is here to assist you with any questions or issues you may
+                                have.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Support Card -->
+                    <div class="group transition-all duration-1000 ease-in-out">
+                        <div
+                            class="text-gray-800 p-4 rounded-lg cursor-pointer transition-all duration-300 group-hover:bg-indigo-600 bg-green-100">
+                            <!-- Header -->
+                            <h3 class="flex items-center geist-font font-medium text-2xl group-hover:text-white">
+                                <svg class="w-6 h-6 mr-2 transition-colors duration-300 text-indigo-600 group-hover:text-white fill-current"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z" />
+                                </svg>
+                                Other
+                            </h3>
+
+                            <!-- Description -->
+                            <p
+                                class="text-[0.980rem] mt-1 geist-font font-medium transition-colors duration-300 group-hover:text-white">
+                                If you have specific needs or inquiries
+                                that don’t fall into our
+                                standard categories, we’re here to help.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Content -->
+            <div class="w-2/3 p-6 m/l-1">
+                <h2 class="text-3xl font-bold text-indigo-600 geist-font">General Questions</h2>
+                <div class="mt-6 pt-4">
+                    <!-- Accordion Item -->
+                    <div class="hover:bg-green-100 rounded-lg">
+                        <button
+                            class="group flex w-full items-center justify-between p-4 text-left transition-all duration-300 rounded-lg"
+                            onclick="toggleAccordion(this)" aria-expanded="false">
+                            <span class="xl:text-xl font-[600] poppins-font text-gray-800">
+                                Can I cancel at any time?
+                            </span>
+                            <svg class="accordion-arrow-btn transform transition-transform duration-300 size-6 text-green-500"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg>
+                        </button>
+
+                        <div class="accordion-content overflow-hidden transition-all duration-300 max-h-0">
+                            <div class="px-4 pb-4">
+                                <p class="text-gray-600 geist-font xl:text-[1.130rem]">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugit soluta dolorem
+                                    facere minus vel suscipit labore numquam itaque similique!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-6 border-t pt-4">
+                    <button
+                        class="hs-acco/rdion-toggle flex justify-between w-full xl:text-xl font-[600] poppins-font text-gray-800"
+                        onclick="toggleAccordion(this)">
+                        Can I cancel at any time?
+                        <svg class="accordion-arrow-btn transform transition-transform duration-300 size-6 text-green-500 hover:bg-green-100 rounded"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m6 9 6 6 6-6" />
+                        </svg>
+                    </button>
+                    <div class="hs-accordion-content overflow-hidden transition-all duration-300 max-h-0">
+                        <div class="pt-3">
+                            <p class="text-gray-800 geist-font xl:text-[1.130rem]">
+                                Yes, you can cancel anytime...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-5 right-4 bg-slate-800 text-white w-12 h-12 flex items-center justify-center rounded shadow-lg cursor-pointer opaci/ty-0 pointer-events-none transition-opacity duration-300 hover:bg-slate-900 z-50">
+        <i class="fas fa-arrow-up text-lg"></i>
+    </button>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="mt-auto w-full ma/x-w-[85rem] py-10 px-4 sm:p-6 lg:px-8 m/x-auto">
+        <!-- Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
+            <div class="col-span-full hidden lg:col-span-1 lg:block">
+                <!-- <a class="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80 white:text-dark"
+                    href="#" aria-label="Brand">
+                </a> -->
+                <img src="./assets/website-logo.jpeg" alt="" class="w-16 h-16 rounded-full">
+                <p class="mt-3 text-md font-semibold sm:te/xt-sm text-black geist-font text-wrap">
+                    © 2025 Caribbean Cricket Podcast.
+                </p>
+            </div>
+            <!-- End Col -->
+
+            <div>
+                <h2 class="text-md font-semibold uppercase text-black geist-font">
+                    Product
+                </h2>
+                <div class="flex justify-cent/er m/t-2 md:justify-start justify-start">
+                    <div class="w-12 m/d:w-10 h-1 bg-indigo-600 rounded-full"></div>
+                </div>
+
+
+                <div class="mt-3 grid space-y-3 text-md font-medium geist-font">
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Pricing</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Changelog</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Docs</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Download</a></p>
+                </div>
+            </div>
+            <!-- End Col -->
+
+            <div>
+                <h4 class="text-md font-semibold uppercase text-black geist-font">Company</h4>
+                <div class="flex justify-cent/er m/t-2 md:justify-start justify-start">
+                    <div class="w-12 md:w/-10 h-1 bg-indigo-600 rounded-full"></div>
+                </div>
+
+                <div class="mt-3 grid space-y-3 text-md font-medium geist-font">
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">About us</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Blog</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Careers</a> <span class="inline text-blue-600 dark:text-blue-500">— We're
+                            hiring</span></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Customers</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Newsroom</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Sitemap</a></p>
+                </div>
+            </div>
+            <!-- End Col -->
+
+            <div>
+                <h4 class="text-md font-semibold uppercase text-black geist-font">Resources</h4>
+                <div class="flex justify-cent/er m/t-2 md:justify-start justify-start">
+                    <div class="w-12 md:w/-10 h-1 bg-indigo-600 rounded-full"></div>
+                </div>
+
+                <div class="mt-3 grid space-y-3 text-md font-medium geist-font">
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Community</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Help & Support</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">eBook</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">What's New</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Status</a></p>
+                </div>
+            </div>
+            <!-- End Col -->
+
+            <div>
+                <h4 class="text-md font-semibold uppercase text-black geist-font">Developers</h4>
+                <div class="flex justify-cent/er m/t-2 md:justify-start justify-start">
+                    <div class="w-12 md:w/-10 h-1 bg-indigo-600 rounded-full"></div>
+                </div>
+
+                <div class="mt-3 grid space-y-3 text-md font-medium geist-font">
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Api</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Status</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">GitHub</a> <span class="inline text-blue-600 dark:text-blue-500">—
+                            New</span>
+                    </p>
+                </div>
+
+                <h4 class="mt-7 text-md font-semibold uppercase text-black geist-font">Industries</h4>
+                <div class="flex justify-cent/er m/t-2 md:justify-start justify-start">
+                    <div class="w-12 md:w/-10 h-1 bg-indigo-600 rounded-full"></div>
+                </div>
+
+
+                <div class="mt-3 grid space-y-3 text-md font-medium geist-font">
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Financial Services</a></p>
+                    <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                            href="#">Education</a></p>
+                </div>
+            </div>
+            <!-- End Col -->
+        </div>
+        <!-- End Grid -->
+
+        <div
+            class="border-t-2 mb-4 border-transparent bg-gradient-to-r from-green-500 via-yellow-500 to-green-500 p-0.5 animate-gradient rounded-full">
+        </div>
+        <!-- Language Dropdown -->
+        <div class="sm:flex sm:justify-between sm:items-center tracking-wider">
+            <div class="flex flex-wrap items-center gap-3">
+                <div class="relative w-fit">
+                    <!-- Dropdown Button -->
+                    <!-- Language Selector Button -->
+                    <button id="languageToggle"
+                        class="relative flex items-center justify-between w-full px-4 py-2 bg-slate-800 hover:bg-slate-900 focus:bg-green-500 focus:ring-2 focus:ring-green-500 active:bg-green-600 active:ring-2 active:ring-green-500 text-white rounded shadow-lg transition focus:outline-none">
+                        <div class="flex items-center">
+                            <img src="https://flagcdn.com/w40/us.png" alt="USD" class="w-10 h-7 mr-3 rounded" />
+                            <span class="text-[1.05rem] font-semibold geist-font">English</span>
+                        </div>
+                        <i id="dropdownArrow"
+                            class="fa-solid fa-chevron-up text-white fa-fw fa-md ml-2 transition-transform duration-300"></i>
+                    </button>
+
+
+                    <!-- Mega Menu (Dropdown) -->
+                    <div id="languageMenu"
+                        class="hidden absolute bottom-20 le/ft-auto transform md:w-[90/0px] min-w-max bg-white rounded-lg shadow-2xl border border-gray-300 overflow-hidden transition-all duration-300 opacit/y-0 translate-y-2 z-50">
+
+                        <!-- Heading Section -->
+                        <div class="px-6 py-4 bg-gray-100 text-start">
+                            <p class="text-lg font-bold text-gray-800 geist-font relative mb-4">
+                                Select Your Language
+                                <span
+                                    class="animate-gradient absolute left-0 bottom-0 w-40 rounded-full h-[2px] bg-gradient-to-r from-green-500 via-yellow-500 to-green-500"></span>
+                            </p>
+                        </div>
+
+
+                        <!-- Language Grid -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+                            <div class="flex items-center p-3 bg-gray-100 cursor-pointer">
+                                <img src="https://flagcdn.com/w40/us.png" alt="USD" class="w-10 h-7 mr-2 rounded" />
+                                <div>
+                                    <p class="font-semibold geist-font text-base tracking-normal">English</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center p-3 bg-gray-100 cursor-pointer">
+                                <img src="https://flagcdn.com/w40/jp.png" alt="JPY"
+                                    class="border border-zinc-300 w-10 h-7 mr-2 rounded" />
+                                <div>
+                                    <p class="font-semibold geist-font text-base tracking-normal">Japanese</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center p-3 bg-gray-100 cursor-pointer">
+                                <img src="https://flagcdn.com/w40/de.png" alt="BTC"
+                                    class="border border-zinc-300 w-10 h-7 mr-2 rounded" />
+                                <div>
+                                    <p class="font-semibold geist-font text-base tracking-normal">German</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center p-3 bg-gray-100 cursor-pointer">
+                                <img src="https://flagcdn.com/w40/es.png" alt="BTC"
+                                    class="border border-zinc-300 w-10 h-7 mr-2 rounded" />
+                                <div>
+                                    <p class="font-semibold geist-font text-base tracking-normal">Español</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center p-3 bg-gray-100 cursor-pointer">
+                                <img src="https://flagcdn.com/w40/pt.png" alt="BTC"
+                                    class="border border-zinc-300 w-10 h-7 mr-2 rounded" />
+                                <div>
+                                    <p class="font-semibold geist-font text-base tracking-normal">Portuguese</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center p-3 bg-gray-100 cursor-pointer">
+                                <img src="https://flagcdn.com/w40/fr.png" alt="BTC"
+                                    class="border border-zinc-300 w-10 h-7 mr-2 rounded" />
+                                <div>
+                                    <p class="font-semibold geist-font text-base tracking-normal">French</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- End Language Dropdown -->
+
+                <div class="space-x-4 text-md font-medium geist-font">
+                    <a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                        href="#">Terms</a>
+                    <a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                        href="#">Privacy</a>
+                    <a class="inline-flex gap-x-2 text-gray-600 hover:text-green-500 focus:outline-none"
+                        href="#">Status</a>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-between items-center gap-3">
+                <div class="mt-3 sm:hidden">
+                    <!-- <a class="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80 dark:text-white"
+                        href="#" aria-label="Brand">Caribbean Cricket Podcast</a> -->
+                    <p class="mt-1 text-md font-medium geist-font sm:text-sm text-gray-900">
+                        © 2025 Caribbean Cricket Podcast.
+                    </p>
+                </div>
+
+                <!-- Social Brands -->
+                <div class="space-x-3 md:space-x-3 m/t-10 geist-font whitesp/ace-nowrap sm:mb-0 ">
+                    <a href="https://www.instagram.com/caribcricket/" target="_blank"
+                        class="relative group inline-block text-black hover:text-green-500 focus:outline-none">
+                        <i class="fab fa-instagram text-xl font-medium"></i>
+                        <span
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-900 text-white text-xs font-medium px-2 py-1 rounded whitespace-nowrap">
+                            Instagram
+                        </span>
+                    </a>
+                    <a href="https://www.youtube.com/@CaribbeanCricketPodcast" target="_blank"
+                        class="relative group inline-block text-black hover:text-green-500 focus:outline-none">
+                        <i class="fab fa-youtube text-xl font-medium"></i>
+                        <span
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-900 text-white text-xs font-medium px-2 py-1 rounded whitespace-nowrap">
+                            YouTube
+                        </span>
+                    </a>
+                    <a href="https://x.com/CaribCricket" target="_blank"
+                        class="relative group inline-block text-black hover:text-green-500 focus:outline-none">
+                        <i class="fab fa-x-twitter text-xl font-medium"></i>
+                        <span
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-900 text-white text-xs font-medium px-2 py-1 rounded whitespace-nowrap">
+                            Twitter / X
+                        </span>
+                    </a>
+                    <a href="https://www.facebook.com/share/g/14jTBzccv2/" target="_blank"
+                        class="relative group inline-block text-black hover:text-green-500 focus:outline-none">
+                        <i class="fab fa-facebook text-xl font-medium"></i>
+                        <span
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-900 text-white text-xs font-medium px-2 py-1 rounded whitespace-nowrap">
+                            Facebook
+                        </span>
+                    </a>
+                    <a href="https://patreon.com/Caribcricket?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_fan&utm_content=join_link"
+                        target="_blank"
+                        class="relative group inline-block text-black hover:text-green-500 focus:outline-none">
+                        <i class="fab fa-patreon text-xl font-medium"></i>
+                        <span
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-900 text-white text-xs font-medium px-2 py-1 rounded whitespace-nowrap">
+                            Patreon
+                        </span>
+                    </a>
+                    <a href="https://open.spotify.com/show/2vseYQXRRe614G84eNydM7?si=55bbd0ed19a946c1" target="_blank"
+                        class="relative group inline-block text-black hover:text-green-500 focus:outline-none">
+                        <i class="fab fa-spotify text-xl font-medium"></i>
+                        <span
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-900 text-white text-xs font-medium px-2 py-1 rounded whitespace-nowrap">
+                            Spotify
+                        </span>
+                    </a>
+                    <a href="https://podcasts.apple.com/us/podcast/caribbean-cricket-podcast/id1513422232"
+                        target="_blank"
+                        class="relative group inline-block text-black hover:text-green-500 focus:outline-none">
+                        <i class="fa-solid fa-podcast text-xl"></i>
+                        <span
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-900 text-white text-xs font-medium px-2 py-1 rounded whitespace-nowrap">
+                            Apple Podcast
+                        </span>
+                    </a>
+                    <a href="https://www.tiktok.com/@caribbean.cricket" target="_blank"
+                        class="relative group inline-block text-black hover:text-green-500 focus:outline-none">
+                        <i class="fab fa-tiktok text-xl font-medium"></i>
+                        <span
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-900 text-white text-xs font-medium px-2 py-1 rounded whitespace-nowrap">
+                            TikTok
+                        </span>
+                    </a>
+                    <a href="https://discord.gg/SmbqkFUs" target="_blank"
+                        class="relative group inline-block text-black hover:text-green-500 focus:outline-none">
+                        <i class="fab fa-discord text-xl font-medium"></i>
+                        <span
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-900 text-white text-xs font-medium px-2 py-1 rounded whitespace-nowrap">
+                            Discord
+                        </span>
+                    </a>
+                </div>
+                <!-- End Social Brands -->
+            </div>
+            <!-- End Col -->
+        </div>
+    </footer>
+    <!-- ======= END FOOTER ========== -->
+    </div>
+    <script src="./js/merch.js"></script>
+</body>
+
+</html>
